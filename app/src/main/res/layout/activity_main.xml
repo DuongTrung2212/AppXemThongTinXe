@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_main"
+    android:focusableInTouchMode="true"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        app:layout_constraintBaseline_toTopOf="parent"
+        android:id="@+id/layout_top"
+        android:weightSum="8"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/anime_bg1"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/editSearch"
+            android:background="@drawable/border_radius_search"
+            app:queryHint="Search...."
+            app:iconifiedByDefault="false"
+            android:hint="Tìm kiếm"
+            android:drawableRight="@drawable/glass"
+            android:layout_weight="8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/icon_filter"
+            android:src="@drawable/filter"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:scaleType="centerCrop"
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
+    </LinearLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pagerMain"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_top" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        app:menu="@menu/menu_bottom"
+        app:itemTextColor="@color/color_bottom"
+        app:itemIconTint="@color/color_bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/recyclerViewFilter"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout_top"
+        android:layout_width="110dp"
+        app:layout_constraintHeight_max="200dp"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+    <ScrollView
+        android:id="@+id/scrollSearch"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout_top"
+        app:layout_constraintHeight_max="200dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView
+            android:focusableInTouchMode="false"
+            android:visibility="gone"
+            android:id="@+id/recyclerViewSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

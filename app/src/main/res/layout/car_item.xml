@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
+    card_view:cardElevation="30dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:background="#0D0C53CD"
+        android:paddingTop="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_car"
+            android:src="@drawable/home"
+            android:scaleType="centerCrop"
+            android:layout_width="180dp"
+            android:layout_height="150dp"/>
+        <TextView
+            android:id="@+id/tv_nameCar"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#19198C"
+            android:padding="5dp"
+            android:text="Car 1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_priceCar"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:text="Car 1"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

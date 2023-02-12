@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/drawable-v24/color_gradient_filter.xml" value="0.1" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/drawable/bg_circle_red.xml" value="0.206" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/drawable/border_radius.xml" value="0.132" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/drawable/border_radius_search.xml" value="0.1" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/drawable/color_gradiant.xml" value="0.231" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/drawable/color_gradient.xml" value="0.1" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/drawable/logo_background.xml" value="0.1" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/drawable/more_back.xml" value="0.1515" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/layout/activity_car_info.xml" value="0.264" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/layout/activity_company_car.xml" value="0.264" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/layout/activity_login.xml" value="0.1276595744680851" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/layout/activity_on_boarding.xml" value="0.25" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/layout/car_item.xml" value="0.264" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/layout/fragment__home.xml" value="0.25052083333333336" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/layout/fragment__home_list.xml" value="0.23645833333333333" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/layout/fragment_onboarding1.xml" value="0.264" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/layout/fragment_onboarding2.xml" value="0.1" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/layout/fragment_onboarding3.xml" value="0.1" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/layout/fragment_rank.xml" value="0.25052083333333336" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/layout/fragment_setting.xml" value="0.1" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/layout/item_filter.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/layout/item_rank_car.xml" value="0.264" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/layout/item_search.xml" value="0.264" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/layout/item_slide.xml" value="0.19972826086956522" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/layout/item_store.xml" value="0.1" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/layout/layout_info_slide.xml" value="0.18297101449275363" />
+        <entry key="..\:/AndroidJava/EndProject/app/src/main/res/menu/menu_bottom.xml" value="0.25052083333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

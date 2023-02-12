@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".OnboardingFragment1"
+    >
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:scaleType="fitCenter"
+        android:src="@drawable/xe2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Bạn có đam mê siêu xe ?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="Chúng tôi tự tin về những thông tin mà mình đưa ra là chính xác"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
